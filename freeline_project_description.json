@@ -1,0 +1,107 @@
+{
+    "android_gradle_plugin_version": "2.2.2",
+    "apk_path": "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\build\\outputs\\apk\\PageAdapter-debug.apk",
+    "apt": {
+        
+    },
+    "apt_libraries": {
+        "dagger": false,
+        "butterknife": false
+    },
+    "auto_dependency": true,
+    "build_cache_dir": "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\build\\freeline",
+    "build_directory": "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\build",
+    "build_script": "gradlew.bat :PageAdapter:assembleDebug",
+    "build_script_work_directory": "",
+    "build_tools_directory": "D:\\asSDk\\sdk\\sdk\\build-tools\\23.0.3",
+    "build_tools_version": "23.0.3",
+    "compile_sdk_directory": "D:\\asSDk\\sdk\\sdk\\platforms\\android-23",
+    "compile_sdk_version": "android-23",
+    "databinding": [
+        
+    ],
+    "databinding_compiler_jar": "",
+    "databinding_modules": [
+        
+    ],
+    "debug_package": "com.diygreen.pageradapterrefresh",
+    "exclude_dep_res_paths": [
+        
+    ],
+    "extra_dep_res_paths": [
+        
+    ],
+    "freeline_cache_dir": "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication",
+    "freeline_gradle_plugin_version": "0.8.3",
+    "java_home": "C:\\Program Files\\Java",
+    "launcher": "com.diygreen.pageradapterrefresh.MainActivity",
+    "main_assets_directory": [
+        "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\debug\\assets",
+        "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\main\\assets"
+    ],
+    "main_jniLibs_directory": [
+        "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\debug\\jniLibs",
+        "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\main\\jniLibs"
+    ],
+    "main_jni_directory": [
+        "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\debug\\jni",
+        "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\main\\jni"
+    ],
+    "main_manifest_path": "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\main\\AndroidManifest.xml",
+    "main_project_dir": "PageAdapter",
+    "main_project_name": "PageAdapter",
+    "main_r_path": "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\build\\generated\\source\\r\\debug\\R.java",
+    "main_res_directory": [
+        "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\debug\\res",
+        "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\main\\res"
+    ],
+    "main_src_directory": [
+        "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\debug\\java",
+        "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\main\\java"
+    ],
+    "module_dependencies": {
+        "PageAdapter": [
+            
+        ]
+    },
+    "modules": [
+        {
+            "name": "PageAdapter",
+            "path": "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter"
+        }
+    ],
+    "package": "com.diygreen.pageradapterrefresh",
+    "product_flavor": "",
+    "project_source_sets": {
+        "PageAdapter": {
+            "main_assets_directory": [
+                "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\debug\\assets",
+                "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\main\\assets"
+            ],
+            "main_jniLibs_directory": [
+                "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\debug\\jniLibs",
+                "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\main\\jniLibs"
+            ],
+            "main_jni_directory": [
+                "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\debug\\jni",
+                "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\main\\jni"
+            ],
+            "main_manifest_path": "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\main\\AndroidManifest.xml",
+            "main_res_directory": [
+                "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\debug\\res",
+                "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\main\\res"
+            ],
+            "main_src_directory": [
+                "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\debug\\java",
+                "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication\\PageAdapter\\src\\main\\java"
+            ]
+        }
+    },
+    "project_type": "gradle",
+    "retrolambda": {
+        
+    },
+    "root_dir": "C:\\Users\\Administrator\\AndroidStudioProjects\\MyApplication",
+    "sdk_directory": "D:\\asSDk\\sdk\\sdk",
+    "use_jdk8": true
+}

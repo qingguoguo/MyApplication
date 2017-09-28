@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="childvalues">
+        <item>child1</item>
+        <item>child2</item>
+        <item>childchild3</item>
+        <item>child4</item>
+        <item>childchild5</item>
+        <item>childchild6</item>
+        <item>child7</item>
+        <item>child8</item>
+    </string-array>
+    <color name="text_color_checked">#FF0000</color>
+    <color name="text_color_unchecked">#222222</color>
+    <declare-styleable name="MultiLineRadioGroup"><attr format="dimension" name="child_margin_horizontal"/><attr format="dimension" name="child_margin_vertical"/><attr format="integer" name="child_layout"/><attr format="integer" name="child_count"/><attr format="integer" name="child_values"/><attr format="boolean" name="single_choice"/><attr format="integer" name="gravity"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="app_name">MultiLineRadioGroup</string>
+</resources>

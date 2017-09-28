@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <com.example.administrator.myapplication.MyHorizontalScrollView
+        android:id="@+id/sl_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rl_one"
+                android:layout_width="231dp"
+                android:layout_height="111.5dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="45dp"
+                android:background="@drawable/wd_toumingk2x">
+
+                <TextView
+                    android:id="@+id/tv_line_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="阴虚"
+                    android:textColor="#88ffffff"
+                    android:textSize="28sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_two"
+                android:layout_width="231dp"
+                android:layout_height="111.5dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/rl_one"
+                android:background="@drawable/wd_toumingk2x">
+
+                <TextView
+                    android:id="@+id/tv_line_tag2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="阳虚"
+                    android:textColor="#88ffffff"
+                    android:textSize="28sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_three"
+                android:layout_width="231dp"
+                android:layout_height="111.5dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/rl_one"
+                android:background="@drawable/wd_toumingk2x">
+
+                <TextView
+                    android:id="@+id/tv_line_tag3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="阳虚"
+                    android:textColor="#88ffffff"
+                    android:textSize="28sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="45dp"
+                android:layout_height="111.5dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/rl_two" />
+        </LinearLayout>
+    </com.example.administrator.myapplication.MyHorizontalScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rl_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <View
+            android:id="@+id/v_line1"
+            android:layout_width="9dp"
+            android:layout_height="2dp"
+            android:background="#ffffff" />
+
+        <View
+            android:id="@+id/v_line2"
+            android:layout_width="9dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/v_line1"
+            android:background="#25ffffff" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,1 @@
+include ':HorizontalScrollView', ':SwipeListView', ':swipemenulistviewDemo', ':library', ':PageAdapter', ':TuDouApp', ':NewTuDouApp', ':floatTextView', ':MultiLineRadioGroup', ':YingMi', ':javatest'

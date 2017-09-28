@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.multilineradiogroup.MainActivity" >
+
+    <item
+        android:id="@+id/append"
+        android:showAsAction="never"
+        android:title="append">
+    </item>
+    <item
+        android:id="@+id/remove"
+        android:showAsAction="never"
+        android:title="remove">
+    </item>
+    <item
+        android:id="@+id/insert"
+        android:showAsAction="never"
+        android:title="insert">
+    </item>
+    <item
+        android:id="@+id/setChecked"
+        android:showAsAction="never"
+        android:title="setChecked">
+    </item>
+    <item
+        android:id="@+id/getCheckedItems"
+        android:showAsAction="never"
+        android:title="getCheckedItems">
+    </item>
+    <item
+        android:id="@+id/clearChecked"
+        android:showAsAction="never"
+        android:title="clearChecked">
+    </item>
+    <item
+        android:id="@+id/setgravity"
+        android:showAsAction="never"
+        android:title="setGravity">
+    </item>
+    <item
+        android:id="@+id/toggleMode"
+        android:showAsAction="never"
+        android:title="toggleChoiceMode">
+    </item>
+
+</menu>

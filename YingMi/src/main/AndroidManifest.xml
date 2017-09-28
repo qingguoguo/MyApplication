@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mahao.alex.yingmi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <!-- 友盟权限-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+
+
+    <application
+        android:name=".base.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.activity.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.activity.RegistActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.activity.ResetPasswordActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.activity.CategoryProductionActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.activity.CategoryActorActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.activity.CategoryThemeActivity"
+            android:launchMode="singleTask" />
+
+        <activity android:name=".ui.activity.ProducitonDetailActivity" />
+
+        <activity android:name=".ui.activity.ActorDetailActivity" />
+
+        <activity android:name=".ui.activity.CommodityDetailActivity" />
+
+        <activity
+            android:name=".ui.activity.WebActivity"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ui.activity.ShowImageActivity"
+            android:launchMode="singleTask" />
+
+
+        <activity
+            android:name=".ui.activity.UserInfoActivity"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".ui.activity.LikeCommodityActivity"
+            android:launchMode="singleTask" />
+
+        <activity android:name=".ui.activity.AddTalkActvity" />
+
+        <activity android:name=".ui.activity.MyTalkActivity" />
+        <activity android:name=".ui.activity.AboutUsActivity" />
+
+        <activity android:name=".ui.activity.CommentActivity" />
+
+
+        <!-- 友盟配置  -->
+        <activity
+            android:name="com.umeng.socialize.editorpage.ShareActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.UMDefault" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="573924e967e58e8d40000086"></meta-data>
+
+
+        <activity
+            android:name="com.mahao.alex.yingmi.um.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+    <meta-data
+        android:name="UMENG_CHANNEL"
+        android:value="Channel_ID" />
+
+    <meta-data
+        android:name="UMENG_CHANNEL"
+        android:value="${UMENG_CHANNEL_VALUE}" />
+
+</manifest>

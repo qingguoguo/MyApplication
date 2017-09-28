@@ -1,0 +1,123 @@
+[
+    {
+        "outputFile": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 11,
+                    "endColumn": 19,
+                    "endOffset": 347
+                },
+                "from": {
+                    "file": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 114,
+                        "endLine": 14,
+                        "endColumn": 19,
+                        "endOffset": 406
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 352,
+                    "endColumn": 52,
+                    "endOffset": 400
+                },
+                "from": {
+                    "file": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 52,
+                        "endOffset": 103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 405,
+                    "endColumn": 54,
+                    "endOffset": 455
+                },
+                "from": {
+                    "file": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 54,
+                        "endOffset": 158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 858,
+                    "endColumn": 57,
+                    "endOffset": 911
+                },
+                "from": {
+                    "file": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 916,
+                    "endColumn": 55,
+                    "endOffset": 967
+                },
+                "from": {
+                    "file": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 972,
+                    "endColumn": 56,
+                    "endOffset": 1024
+                },
+                "from": {
+                    "file": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 56,
+                        "endOffset": 108
+                    }
+                }
+            }
+        ]
+    }
+]

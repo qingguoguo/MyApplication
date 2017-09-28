@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg.xml",
+        "source": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\src\\main\\res\\drawable-hdpi\\bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_unchecked.xml",
+        "source": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\src\\main\\res\\drawable-hdpi\\bg_unchecked.xml"
+    },
+    {
+        "merged": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_checked.xml",
+        "source": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\src\\main\\res\\drawable-hdpi\\bg_checked.xml"
+    }
+]

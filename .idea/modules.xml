@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HorizontalScrollView/HorizontalScrollView.iml" filepath="$PROJECT_DIR$/HorizontalScrollView/HorizontalScrollView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiLineRadioGroup/MultiLineRadioGroup.iml" filepath="$PROJECT_DIR$/MultiLineRadioGroup/MultiLineRadioGroup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewTuDouApp/NewTuDouApp.iml" filepath="$PROJECT_DIR$/NewTuDouApp/NewTuDouApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PageAdapter/PageAdapter.iml" filepath="$PROJECT_DIR$/PageAdapter/PageAdapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwipeListView/SwipeListView.iml" filepath="$PROJECT_DIR$/SwipeListView/SwipeListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TuDouApp/TuDouApp.iml" filepath="$PROJECT_DIR$/TuDouApp/TuDouApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YingMi/YingMi.iml" filepath="$PROJECT_DIR$/YingMi/YingMi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatTextView/floatTextView.iml" filepath="$PROJECT_DIR$/floatTextView/floatTextView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javatest/javatest.iml" filepath="$PROJECT_DIR$/javatest/javatest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipemenulistviewDemo/swipemenulistviewDemo.iml" filepath="$PROJECT_DIR$/swipemenulistviewDemo/swipemenulistviewDemo.iml" />
+    </modules>
+  </component>
+</project>

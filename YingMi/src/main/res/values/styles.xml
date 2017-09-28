@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    </style>
+
+
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity" mce_bogus="1">
+        <item name="android:activityOpenEnterAnimation">@anim/open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/close_exit</item>
+    </style>
+    <!--      android:drawableTop="@mipmap/home_btn_home_highlight"
+            android:button="@null"
+            android:text="首页"
+            android:textSize="@dimen/text_font_micro"
+            android:textColor="@color/text_black"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"-->
+    <style name="MainMenuRadioButton">
+        <item name="android:button">@null</item>
+        <item name="android:textSize">@dimen/text_font_micro</item>
+        <item name="android:textColor">@drawable/selector_main_menu_text</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+    </style>
+
+    <style name="BuyDialog"  parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowIsTranslucent">false</item>
+        <!--<item name="android:minWidth">300dp</item>-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+<!--
+      <item name="windowMinWidthMajor">@dimen/dialog_min_width_major</item>
+        <item name="windowMinWidthMinor">@dimen/dialog_min_width_minor</item>-->
+       <!-- <item name="windowMinWidthMajor">90%</item>
+        <item name="windowMinWidthMinor">80%</item>
+-->
+    </style>
+
+    <style name="BuyDialogAnim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_buy_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_buy_exit</item>
+
+    </style>
+
+    <style name="CustomDialog"  parent="@style/AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <!--<item name="android:minWidth">300dp</item>-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+       <!-- <item name="android:windowFrame">@null</item>&lt;!&ndash;边框&ndash;&gt;-->
+        <item name="android:windowBackground">@color/transparent</item><!-- 背景透明 -->
+        <!--
+              <item name="windowMinWidthMajor">@dimen/dialog_min_width_major</item>
+                <item name="windowMinWidthMinor">@dimen/dialog_min_width_minor</item>-->
+        <!-- <item name="windowMinWidthMajor">90%</item>
+         <item name="windowMinWidthMinor">80%</item>
+ -->
+    </style>
+
+
+</resources>

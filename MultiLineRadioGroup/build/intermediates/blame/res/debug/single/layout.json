@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\build\\intermediates\\res\\merged\\debug\\layout\\aty_list.xml",
+        "source": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\src\\main\\res\\layout\\aty_list.xml"
+    },
+    {
+        "merged": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\build\\intermediates\\res\\merged\\debug\\layout\\child.xml",
+        "source": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\src\\main\\res\\layout\\child.xml"
+    },
+    {
+        "merged": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "D:\\workspace\\MyApplication\\MultiLineRadioGroup\\src\\main\\res\\layout\\list_item.xml"
+    }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/becausefloat"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent">
+
+
+    <com.example.bbbapplication.FloatTextView
+        android:id="@+id/tizhi_float_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:background="@mipmap/float_1080"
+        android:gravity="center"
+        android:lines="2"
+        android:maxEms="2"
+        android:text="重新\n评估"
+        android:textColor="@color/white" />
+</FrameLayout>
