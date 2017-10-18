@@ -5,30 +5,29 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.TextView;
 
+
 /**
- * 作者:wangqing
- * 创建日期：2017/2/10 on 17:45
- * 描述:TextView
+ * @author : qingguoguo
+ * @datetime : 2017/10/17 17:35
+ * @Describe :
  */
 
 public class FloatTextView extends TextView {
 
-    //定义两种状态 移动和停止移动
-    private final int STATE_MOVE = 1;
+    private final String TAG = FloatTextView.class.getSimpleName();
+    private final int STATE_MOVE = 1;//定义两种状态 移动和停止移动
     private final int STATE_STOP = 0;
-    //定义记录当前状态的变量
-    private int mState;
-    //定义一个记录当前动作的变量
-    private int mAction;
-    //初始化当前控件的位置
-    private int currentX = 0;
+    private int parentWidth;//获取父布局的宽
+    private int parentHeight;//获取父布局的高
+    private int mState;//定义记录当前状态的变量
+    private int currentX = 0;//初始化当前控件的位置
     private int currentY = 0;
-    //记录上一次控件的位置
-    private int previousX = 0;
+    private int previousX = 0;//记录上一次控件的位置
     private int previousY = 0;
+    private int minTopBottomDistance = 50;//悬浮框距离上下的最小距离
+    private int minLeftRightDistance = 20;//悬浮框距离左右的最小距离
 
     public FloatTextView(Context context, AttributeSet attrs) {
         super(context, attrs, 0);
@@ -41,15 +40,21 @@ public class FloatTextView extends TextView {
     }
 
     @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        parentWidth = ((ViewGroup) getParent()).getWidth();//获取父布局的宽
+        parentHeight = ((ViewGroup) getParent()).getHeight();//获取父布局的高
+    }
+
+    @Override
     public boolean onTouchEvent(MotionEvent event) {
-        mAction = event.getAction(); //获取当前动作
         currentX = (int) event.getX();  //获取当前X坐标
         currentY = (int) event.getY();  //获取当前Y坐标
-        int parentWidth = ((ViewGroup) getParent()).getWidth();//获取父布局的宽
-        int parentHeight = ((FrameLayout) getParent()).getHeight();//获取父布局的高
-        switch (mAction) {
+
+        switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN: //按下控件时
-                mState = STATE_MOVE;  //状态设置为可移动
+                Log.i(TAG, "onTouchEvent---ACTION_DOWN: currentX:" + currentX + ",currentY:" + currentY);
+                mState = STATE_MOVE;  //保存状态为移动
                 previousX = currentX;  //记录上次X,Y坐标
                 previousY = currentY;
                 break;
@@ -60,10 +65,9 @@ public class FloatTextView extends TextView {
                 int mTop = getTop();  //控件未移动前距离父窗口顶部的距离
                 int mLeft = getLeft();  //控件未移动前距离父窗口左边的距离
 
-                if (detelX != 0 || detelY != 0) //控件被移动
-                {
-                    Log.i("ACTION_MOVE", "onTouchEvent---getParent: 高:" + getHeight() + "宽:" + getWidth() + "，父布局的高:" + parentHeight + "，父布局的宽:" + parentWidth);
-                    Log.i("ACTION_MOVE", "onTouchEvent---ACTION_MOVE: Top:" + getTop() + ",bottom:" + getBottom() + ",left:" + getLeft() + ",right:" + getRight());
+                if (detelX != 0 || detelY != 0) { //控件被移动
+                    Log.i(TAG, "onTouchEvent---ACTION_MOVE: 高:" + getHeight() + "宽:" + getWidth() + "，父布局的高:" + parentHeight + "，父布局的宽:" + parentWidth);
+                    Log.i(TAG, "onTouchEvent---ACTION_MOVE: Top:" + getTop() + ",bottom:" + getBottom() + ",left:" + getLeft() + ",right:" + getRight());
                     //重新指定控件的位置和大小 l,  t,  r,  b
                     this.layout(detelX + mLeft, detelY + mTop, detelX + mLeft + getWidth(), detelY + mTop + getHeight());
                 }
@@ -73,25 +77,23 @@ public class FloatTextView extends TextView {
 
             case MotionEvent.ACTION_UP: //触摸事件结束，触摸离开屏幕
                 //重新指定控件的位置和大小 l,  t,  r,  b
-                Log.i("ACTION_UP", "onTouchEvent---ACTION_UP: " + currentX + "/" + currentY);
-                Log.i("ACTION_UP", "onTouchEvent---ACTION_MOVE: Top:" + getTop() + ",bottom:" + getBottom() + ",left:" + getLeft() + ",right:" + getRight());
-                int indexHeight = 0;
-                if (parentHeight - getTop() < getHeight()) {
-                    indexHeight = parentHeight - getHeight() - 50;
-                } else if (getTop() < 50) {
-                    indexHeight = 50;
-                } else {
+                Log.i(TAG, "onTouchEvent---ACTION_UP: currentX:" + currentX + ",currentY:" + currentY);
+                Log.i(TAG, "onTouchEvent---ACTION_UP: Top:" + getTop() + ",bottom:" + getBottom() + ",left:" + getLeft() + ",right:" + getRight());
+
+                int indexHeight;
+                if (parentHeight - getTop() < getHeight()) {//悬浮框距离底部小于设置的最小距离，Top=等于最小距离
+                    indexHeight = parentHeight - getHeight() - minTopBottomDistance;
+                } else if (getTop() < minTopBottomDistance) {//悬浮框距离顶部小于设置的最小距离，Top=等于最小距离
+                    indexHeight = minTopBottomDistance;
+                } else {//其他情况Top不变
                     indexHeight = getTop();
                 }
+                //判断悬浮框是靠父view左，还是靠父view右
                 if (getLeft() < ((parentWidth - getWidth()) / 2)) {
-                    this.layout(20, indexHeight, 20 + getWidth(), indexHeight + getHeight());
+                    this.layout(minLeftRightDistance, indexHeight, minLeftRightDistance + getWidth(), indexHeight + getHeight());
                 } else {
-                    this.layout(parentWidth - getWidth() - 20, indexHeight, parentWidth - 20, indexHeight + getHeight());
+                    this.layout(parentWidth - getWidth() - minLeftRightDistance, indexHeight, parentWidth - minLeftRightDistance, indexHeight + getHeight());
                 }
-                mState = STATE_STOP;
-                break;
-
-            case MotionEvent.ACTION_CANCEL: //取消触摸事件
                 mState = STATE_STOP;
                 break;
         }
