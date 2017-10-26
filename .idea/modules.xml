@@ -9,12 +9,12 @@
       <module fileurl="file://$PROJECT_DIR$/PageAdapter/PageAdapter.iml" filepath="$PROJECT_DIR$/PageAdapter/PageAdapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Scanning/scanning.iml" filepath="$PROJECT_DIR$/Scanning/scanning.iml" />
       <module fileurl="file://$PROJECT_DIR$/SwipeListView/SwipeListView.iml" filepath="$PROJECT_DIR$/SwipeListView/SwipeListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwipemenulistviewDemo/swipemenulistviewDemo.iml" filepath="$PROJECT_DIR$/SwipemenulistviewDemo/swipemenulistviewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/TuDouApp/TuDouApp.iml" filepath="$PROJECT_DIR$/TuDouApp/TuDouApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/YingMi/YingMi.iml" filepath="$PROJECT_DIR$/YingMi/YingMi.iml" />
       <module fileurl="file://$PROJECT_DIR$/floatTextView/floatTextView.iml" filepath="$PROJECT_DIR$/floatTextView/floatTextView.iml" />
       <module fileurl="file://$PROJECT_DIR$/javatest/javatest.iml" filepath="$PROJECT_DIR$/javatest/javatest.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swipemenulistviewDemo/swipemenulistviewDemo.iml" filepath="$PROJECT_DIR$/swipemenulistviewDemo/swipemenulistviewDemo.iml" />
     </modules>
   </component>
 </project>

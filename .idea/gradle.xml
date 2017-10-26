@@ -15,12 +15,12 @@
             <option value="$PROJECT_DIR$/PageAdapter" />
             <option value="$PROJECT_DIR$/Scanning" />
             <option value="$PROJECT_DIR$/SwipeListView" />
+            <option value="$PROJECT_DIR$/SwipemenulistviewDemo" />
             <option value="$PROJECT_DIR$/TuDouApp" />
             <option value="$PROJECT_DIR$/YingMi" />
             <option value="$PROJECT_DIR$/floatTextView" />
             <option value="$PROJECT_DIR$/javatest" />
             <option value="$PROJECT_DIR$/library" />
-            <option value="$PROJECT_DIR$/swipemenulistviewDemo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
