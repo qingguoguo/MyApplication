@@ -1,5 +1,5 @@
 # MyApplication
- 1.个人开源项目，部分是下载的开源项目并修改，用于借鉴
+ 1.个人开源项目，部分是下载的开源项目并做适当修改，用于借鉴
 # 简介
 2.Scanning：zxing二维码扫描和生成二维码
   HorizontalScrollView：水平滑动ScrollView
