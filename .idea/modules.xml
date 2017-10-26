@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/NewTuDouApp/NewTuDouApp.iml" filepath="$PROJECT_DIR$/NewTuDouApp/NewTuDouApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/PageAdapter/PageAdapter.iml" filepath="$PROJECT_DIR$/PageAdapter/PageAdapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scanning/scanning.iml" filepath="$PROJECT_DIR$/Scanning/scanning.iml" />
       <module fileurl="file://$PROJECT_DIR$/SwipeListView/SwipeListView.iml" filepath="$PROJECT_DIR$/SwipeListView/SwipeListView.iml" />
       <module fileurl="file://$PROJECT_DIR$/TuDouApp/TuDouApp.iml" filepath="$PROJECT_DIR$/TuDouApp/TuDouApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/YingMi/YingMi.iml" filepath="$PROJECT_DIR$/YingMi/YingMi.iml" />
