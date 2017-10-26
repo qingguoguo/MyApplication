@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
 
-    <com.example.bbbapplication.FloatTextView
+    <com.example.floattextview.FloatTextView
         android:id="@+id/tizhi_float_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

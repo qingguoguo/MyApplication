@@ -1,4 +1,4 @@
-package com.example.bbbapplication;
+package com.example.floattextview;
 
 import org.junit.Test;
 

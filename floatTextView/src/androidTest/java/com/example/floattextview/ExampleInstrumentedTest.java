@@ -1,4 +1,4 @@
-package com.example.bbbapplication;
+package com.example.floattextview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
